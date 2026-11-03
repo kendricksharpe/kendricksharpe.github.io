@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Manrope;
+  src: url("./manrope.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light;
+  font-family: Manrope, system-ui, sans-serif;
+  color: #111;
+  background: #fff;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-size: clamp(1.125rem, 1.125rem + ((1vw - .2rem) * .392), 1.375rem);
+  font-weight: 300;
+  letter-spacing: -.1px;
+  line-height: 1.4;
+}
+
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .1em; }
+a:hover { text-decoration: none; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+main { padding: clamp(60px, 12vw, 140px) clamp(30px, 5vw, 50px) 70px; }
+.content { max-width: 645px; margin-inline: auto; }
+.content > * { margin-block: 0 1.2rem; }
+.content > :last-child { margin-bottom: 0; }
+h1, h2 { font-weight: 400; letter-spacing: -.1px; line-height: 1.125; }
+h1 { font-size: clamp(2.15rem, 2.15rem + ((1vw - .2rem) * 1.333), 3rem); }
+h2 { font-size: clamp(1.75rem, 1.75rem + ((1vw - .2rem) * .392), 2rem); }
+p { overflow-wrap: break-word; }
+hr { border: 0; border-bottom: 1px solid #d0d0d0; margin-block: 1.2rem; }
+em { font-style: italic; }
+.wp-block-pullquote { margin-inline: 0; padding: 1rem 0; text-align: center; }
+.wp-block-pullquote blockquote { margin: 0; }
+.wp-block-pullquote p { font-size: 1.5em; line-height: 1.6; margin: 0 0 .5rem; }
+.wp-block-pullquote cite { font-size: .875rem; font-style: normal; }

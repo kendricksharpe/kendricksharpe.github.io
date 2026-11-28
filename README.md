@@ -1,6 +1,6 @@
 # kendricksharpe.com
 
-A static reading list hosted on GitHub Pages. The homepage contains the reading list only, with its book links and favorites preserved. The old `/reading-list/` address redirects to `/`.
+A static site hosted on GitHub Pages. The homepage is at `/`, the reading list at `/reading-list/`, and Evergreen Valley Grant Foundation at `/evgf/`. All three use the shared navigation in `assets/site-nav.js`.
 
 ## Editing and publishing
 
